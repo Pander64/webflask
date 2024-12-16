@@ -10,10 +10,6 @@ on:
       - main
   workflow_dispatch:
 
-env:
-  WEBAPP_NAME: 'firstWebAppplan2'            
-  RESOURCE_GROUP: 'firstWeb'    
-
 jobs:
   build:
     runs-on: ubuntu-latest
