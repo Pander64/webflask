@@ -7,10 +7,10 @@ STORAGE_ACCT_NAME="developertest234"
 CONTAINERSTORAGE="developertest23"
 FUNCTION_APP_NAME="DeveloperTest2345"
 RESOURCE_GROUP_NAME="firstWeb"
-APP_PLAN="DeveloeprTest1"
-APP_SERVICE_PLAN_NAME_TEST="firstWebAppplan"
+APP_PLAN="DeveloeprTest12"
+APP_SERVICE_PLAN_NAME_TEST="firstWebAppplan2"
 SKU_PLAN="F1"
-RUNTIME_LIST="PYTHON:3.8"
+RUNTIME_LIST="PYTHON:3.12"
 REGION="East US2"
 
 az group create --location $REGION --resource-group $RESOURCE_GROUP_NAME 
