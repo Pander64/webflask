@@ -21,9 +21,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: List contents of virtual environment
-        run: ls venv/bin
-
       - name: Set up Python version
         uses: actions/setup-python@v5
         with:
